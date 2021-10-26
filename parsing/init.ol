@@ -1,0 +1,5 @@
+service S {
+    ini {
+		nullProcess
+	}
+}
