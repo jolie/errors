@@ -1,3 +1,0 @@
-service HelloService {
-    executin: concurrent
-}

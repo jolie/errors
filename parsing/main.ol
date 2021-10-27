@@ -1,5 +1,0 @@
-service S {
-    mai {
-		nullProcess
-	}
-}
