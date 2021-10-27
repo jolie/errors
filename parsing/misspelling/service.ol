@@ -1,0 +1,6 @@
+srvice S {
+	main {
+		nullProcess
+	}
+}
+
