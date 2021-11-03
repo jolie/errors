@@ -1,4 +1,4 @@
 service HelloService {
-    execution:
+    execution: seq
 
 }

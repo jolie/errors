@@ -1,5 +1,5 @@
 service S {
-    mai {
+    man{
 		nullProcess
 	}
 }
