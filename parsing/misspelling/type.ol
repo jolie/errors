@@ -1,3 +1,3 @@
 tye HelloRequest {
-	name:string
+	name: string
 }
