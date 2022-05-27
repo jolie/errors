@@ -1,5 +1,5 @@
-from Console import Console
-from A import AB
+from console import Console
+from stringutils import StringUtils
 
 service myService{
     embed Console as C
