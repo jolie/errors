@@ -1,0 +1,13 @@
+#!/bin/sh
+
+V1=$1
+
+REAL_PATH=$(realpath $2)
+DIR=$(dirname $REAL_PATH)
+TARGET=$(basename $REAL_PATH)
+HERE=$(pwd)
+
+(docker run -it --rm -v $DIR:/app -w /app jolielang/jolie:$1 jolie $TARGET &> $HERE/out1.txt)
+(cd $DIR && jolie $TARGET &> $HERE/out2.txt)
+
+diff --color=auto out1.txt out2.txt
