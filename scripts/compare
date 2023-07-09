@@ -11,3 +11,4 @@ HERE=$(pwd)
 (cd $DIR && jolie $TARGET &> $HERE/out2.txt)
 
 diff --color=auto out1.txt out2.txt
+rm out1.txt out2.txt
